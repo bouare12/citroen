@@ -1,0 +1,128 @@
+nav{
+	font-size: 10px;
+	background: #184254;
+	overflow: auto;
+	font-family: "citroenlight";
+
+	ul{
+		padding: auto;
+
+		li{
+			display: inline-block;
+			line-height: 15px;
+			inline-block: center;
+			margin: 10px;
+
+			a{
+				text-decoration: none;
+				color: white;
+				display: block;
+				list-style-type: none;
+				font-size: 12px;
+			}	
+		}
+
+		&.navleft{
+			float: left;
+		}
+
+		&.navright{
+			float: right;
+		}
+	}
+}
+header{
+	overflow:auto;
+	inline-block: center;
+	font-family: "citroenlight";
+	text-align:center;
+
+	ul{
+
+		padding: auto;
+		li{
+
+			display: inline-block;
+			margin: 20px;
+
+			a{
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.contenaire{
+	display: inline-block;
+
+	h2{
+		color: #5b2645;
+		font-family:"citroenbold";
+		font-size: 22px;
+		font-weight: 200px;
+		text-align: center;
+	}
+
+	.content{
+		overflow: auto;
+		border: 1px solid #d7d7d7;
+		margin-top: 20px;
+		width: 600px;
+		display: inline-block;
+
+		.slidleft{
+			padding: auto;
+
+			li{
+				display: inline-block;
+			}
+			.jour{
+				border: 1px solid #d7d7d7;
+				padding: 12px 12px 12px 12px;
+				font-family: "citroenbold";
+				width: 644px;
+				font-size: 22px;
+				text-align: center;
+				border-right-width: 0px;
+
+			}
+			.day{
+				border: 1px solid #d7d7d7;
+				font-family: "citroenbold";
+				background: #5b2645;
+				color: white;
+				width: 644px;
+				padding: 12px 12px 12px 12px;
+				margin-right: 60px;
+				padding-right: 100;
+
+			}
+		}
+
+		.seconleft{
+			padding: auto;
+			text-decoration: none;
+
+			li{
+				margin: 20px;
+
+				span{
+					text-decoration: none;
+				}
+				img{
+
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+.slider{
+	background: #85cddb;
+
+	.banlogo{
+		margin-left: 600px;
+	}
+
+}
