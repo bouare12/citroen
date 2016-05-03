@@ -31,6 +31,7 @@ nav{
 		}
 	}
 }
+
 header{
 	overflow:auto;
 	inline-block: center;
@@ -52,67 +53,65 @@ header{
 	}
 }
 
-.contenaire{
+h2{
+	color: #5b2645;
+	font-family:"citroenbold";
+	font-size: 22px;
+	font-weight: 200px;
+	text-align: center;
+}
+
+.content{
+	overflow: auto;
+	border: 1px solid #d7d7d7;
+	margin-top: 20px;
+	width: 550px;
 	display: inline-block;
+	margin-left: 350px;
 
-	h2{
-		color: #5b2645;
-		font-family:"citroenbold";
-		font-size: 22px;
-		font-weight: 200px;
-		text-align: center;
-	}
+	.slidleft{
+		padding: auto;
 
-	.content{
-		overflow: auto;
-		border: 1px solid #d7d7d7;
-		margin-top: 20px;
-		width: 600px;
-		display: inline-block;
-
-		.slidleft{
-			padding: auto;
-
-			li{
-				display: inline-block;
-			}
-			.jour{
-				border: 1px solid #d7d7d7;
-				padding: 12px 12px 12px 12px;
-				font-family: "citroenbold";
-				width: 644px;
-				font-size: 22px;
-				text-align: center;
-				border-right-width: 0px;
-
-			}
-			.day{
-				border: 1px solid #d7d7d7;
-				font-family: "citroenbold";
-				background: #5b2645;
-				color: white;
-				width: 644px;
-				padding: 12px 12px 12px 12px;
-				margin-right: 60px;
-				padding-right: 100;
-
-			}
+		li{
+			display: inline-block;
 		}
 
-		.seconleft{
-			padding: auto;
-			text-decoration: none;
+		.jour{
+			border: 1px solid #d7d7d7;
+			padding: 12px 12px 12px 12px;
+			font-family: "citroenbold";
+			width: 644px;
+			font-size: 22px;
+			text-align: center;
+			border-right-width: 0px;
 
-			li{
-				margin: 20px;
+		}
 
-				span{
-					text-decoration: none;
-				}
-				img{
+		.day{
+			border: 1px solid #d7d7d7;
+			font-family: "citroenbold";
+			background: #5b2645;
+			color: white;
+			width: 644px;
+			padding: 12px 12px 12px 12px;
+			margin-right: 60px;
+			padding-right: 100;
+		}
+	}
 
-					text-decoration: none;
-				}
+	.seconleft{
+		padding: auto;
+
+		li{
+			margin: 20px;
+
+			span{
+				text-decoration: none;
+			}
+			img{
+
+				text-decoration: none;
+				border-bottom: 1px solid #f2f2f2;
 			}
 		}
 	}
@@ -124,5 +123,128 @@ header{
 	.banlogo{
 		margin-left: 600px;
 	}
+}
 
+.slideright{
+	float: right;
+	display: block;
+	margin-right: 500px;
+
+	.calen{
+		text-decoration: none;
+		font-family: "citroenregular";
+		background: #5b2645;
+		color: white;
+		width:  150px;
+		padding: 10px 10px 10px;
+		margin-top: 10px;
+		border-radius: 4px;
+
+		a{
+			text-decoration: none;
+			color:white;
+			text-align: center;
+			font-size: 15px;
+		}
+	}
+}
+
+.btn1{
+	margin-left: 350px;
+	font-family: "citroenregular";
+
+	li{
+		display: inline-block;
+		background: #5b2645;
+		padding: 10px 10px 10px;
+		margin-top: 10px;
+		margin-right: 20px;
+		border-radius: 4px;
+
+		a{
+			text-decoration: none;
+			color: white;
+			font-size: 15px;
+		}
+	}
+}
+footer{
+	display:inline-block;
+	margin-top: 20px;
+
+	.footleft{
+		float: left;
+		width: 500px;
+		margin-left: 350px;
+
+		h3{
+			font-family: "citroenregular";
+			font-size: 22px;
+			color: #184254;
+		}
+
+		ul{
+			margin:auto;
+			margin-right: 50px;
+
+			li{
+				font-family:"citroenregular";
+				width: 400px;
+				border-bottom: 1px solid #f0f0f0;
+				padding: 19px 0 19px 15px;
+
+				a{
+					text-decoration: none;
+					color: inherit;
+				}
+			}
+		}
+		.btn2{
+			text-decoration: none;
+			font-family: "citroenregular";
+			font-size: 15px;
+			background: #184254;
+			color: white;
+			border-radius: 4px;
+			padding: 10px 25px;
+
+		}
+	}
+	.footright{
+		float: right;
+
+		h3{
+			font-family: "citroenregular";
+			font-size: 22px;
+			color: #184254;
+		}
+
+		ul{
+			margin:auto;
+			margin-right: 50px;
+
+			li{
+				font-family:"citroenregular";
+				width: 400px;
+				border-bottom: 1px solid #f0f0f0;
+				padding: 19px 0 19px 15px;
+
+				a{
+					text-decoration: none;
+					color: inherit;
+				}
+			}
+		}
+		
+		.btn3{
+			text-decoration: none;
+			font-family: "citroenregular";
+			font-size: 15px;
+			background: #184254;
+			color: white;
+			border-radius: 4px;
+			padding: 10px 25px;
+
+		}
+	}
 }
